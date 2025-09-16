@@ -3,5 +3,19 @@
   "queries": [
     "novel augmentation image classification",
     "deep learning image augmentation"
+  ],
+  "research_study_list": [
+    {
+      "title": "Data Augmentation for Meta-Learning"
+    },
+    {
+      "title": "Effective Data Augmentation With Diffusion Models"
+    },
+    {
+      "title": "Data augmentation for deep learning based accelerated MRI reconstruction with limited data"
+    },
+    {
+      "title": "Deep Subspace Clustering with Data Augmentation"
+    }
   ]
 }

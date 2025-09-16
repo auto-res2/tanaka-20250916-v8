@@ -1,0 +1,14 @@
+Using CPython 3.11.13
+Creating virtual environment at: .venv
+Resolved 36 packages in 708ms
+   Building redimix-refactor @ file:///home/toma/pt80-1-a-27/_work/tanaka-20250916-v8/tanaka-20250916-v8
+      Built redimix-refactor @ file:///home/toma/pt80-1-a-27/_work/tanaka-20250916-v8/tanaka-20250916-v8
+Prepared 1 package in 3.58s
+Installed 1 package in 10ms
+ + redimix-refactor==0.1.0 (from file:///home/toma/pt80-1-a-27/_work/tanaka-20250916-v8/tanaka-20250916-v8)
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/toma/pt80-1-a-27/_work/tanaka-20250916-v8/tanaka-20250916-v8/src/main.py", line 21, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'

@@ -67,7 +67,7 @@ def cli():  # pragma: no cover
 
     if run_full:
         # guard: only proceed if smoke-test succeeded (very naive check based on file existence)
-        if run_smoke and not (Path(".research/iteration1") / "smoke_test.json").exists():
+        if run_smoke and not (Path(".research/iteration2") / "smoke_test.json").exists():
             print("Smoke-test did not complete. Aborting full experiment.", file=sys.stderr)
             sys.exit(1)
         _run(full_cfg, tag="full_experiment")

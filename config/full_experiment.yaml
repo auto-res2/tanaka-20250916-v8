@@ -10,3 +10,12 @@ training:
   batch_size: 256
   lr: 0.001
   num_workers: 8
+
+redimix:
+  enabled: true
+  buffer_size: 1000
+  global_directions: 32
+  residual_directions: 32
+  preview_size: 64
+  bandit_exploration: 0.2
+  ddim_steps: 4

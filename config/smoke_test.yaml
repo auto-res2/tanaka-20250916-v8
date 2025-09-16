@@ -7,6 +7,13 @@ data:
 
 training:
   epochs: 1
-  batch_size: 256
+  batch_size: 32
   lr: 0.001
-  num_workers: 4
+  num_workers: 2
+
+redimix:
+  enabled: false
+  buffer_size: 100
+  global_directions: 8
+  residual_directions: 8
+  preview_size: 64

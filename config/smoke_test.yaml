@@ -1,0 +1,12 @@
+# Minimal configuration for a <60-second validation on a single GPU
+model:
+  name: resnet18
+
+data:
+  name: cifar10
+
+training:
+  epochs: 1
+  batch_size: 256
+  lr: 0.001
+  num_workers: 4

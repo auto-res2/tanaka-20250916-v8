@@ -1,0 +1,12 @@
+# Production-scale configuration inspired by the project description
+model:
+  name: resnet18
+
+data:
+  name: cifar100  # use CIFAR-100 for the full run
+
+training:
+  epochs: 100  # still modest to keep runtime reasonable in this demo
+  batch_size: 256
+  lr: 0.001
+  num_workers: 8
